@@ -20,4 +20,14 @@ while user_input != 0:
 			add_item_input = 1
 			while add_item_input != 0:
 				add_item_input = input("Enter item you want to add: ")
-				print(add_item(add_item_input))
+			if add_item_input == "0":
+				print(Grocery_App_Homepage)
+			print(add_item(add_item_input))
+			
+			
+				
+		case "2":
+			remove_item_input = 1
+			while remove_item_input != 0:
+				remove_item_input = input("Enter item you want to remove: ")
+				print(remove_item(remove_item_input))

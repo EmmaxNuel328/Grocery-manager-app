@@ -6,4 +6,8 @@ def add_item(prompt,my_list = []):
 	print(prompt,end = " ")
 	return "added successfully"
 
-#defs
+def remove_item(prompt,my_list = []):
+	my_list.remove(prompt)
+	print(my_list)
+	print(prompt,end = " ")
+	return "removed successfully"
